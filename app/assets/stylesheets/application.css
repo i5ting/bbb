@@ -15,7 +15,7 @@
 #page {
 	background: #fff;
 /*	background: red;*/
-	margin: 2em auto;
+/*	margin: 0em auto;*/
 	max-width: 1000px;
 	
 }
@@ -120,7 +120,7 @@ body {
 	padding: 0 2em;
 }
 #page {
-	margin: 2em auto;
+	margin: 0em auto;
 	max-width: 1000px;
 }
 #branding hgroup {
