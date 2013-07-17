@@ -1,0 +1,49 @@
+
+	<div id="primary" class="showcase" >
+		<div id="content" role="main" >
+
+ 
+
+			<section class="recent-posts">
+				<h1 class="showcase-heading">Recent Posts</h1>
+
+
+				<article id="post-290" class="post-290 post type-post status-publish format-standard hentry category-code category-ios category-ipad-2 category-iphone category-mac-os-x category-mobile-applications category-software-development tag-frame tag-geometry tag-interface-builder tag-ipad tag-iphone-2 tag-layout tag-macros tag-objective-c tag-uikit tag-uiview tag-xcode">
+					<header class="entry-header">
+						<h1 class="entry-title"><a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/" rel="bookmark">Frame geometry macros to improve your UIKit code</a></h1>
+
+									<div class="entry-meta">
+							<span class="sep">Posted on </span><a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/" rel="bookmark"><time class="entry-date" datetime="2013-03-11T12:01:38+00:00" pubdate="">March 11, 2013</time></a> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://twobitlabs.com/author/cpickslay/" title="View all posts by Christopher Pickslay">Christopher Pickslay</a></span>			</div><!-- .entry-meta -->
+
+									<div class="comments-link">
+							<a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#respond" title="Comment on Frame geometry macros to improve your UIKit code"><span class="leave-reply">Reply</span></a>			</div>
+								</header><!-- .entry-header -->
+
+							<div class="entry-content">
+						<p><img src="http://twobitlabs.com/wp-content/uploads/2013/03/swoop_175_20.gif" alt="Frame geometry" title="swoop_175_20.gif" border="0" width="200" height="142" class="pull alignright size-thumbnail">I find myself doing more and more dynamic UI layout in iOS apps these days. When elements of a UI need to resize to fit their contents, or move to accommodate other elements, the layout code can get complex and verbose.  We’ve developed a set of <a onclick="javascript:pageTracker._trackPageview('/outgoing/github.com/twobitlabs/TBMacros');" href="http://github.com/twobitlabs/TBMacros">Objective-C UIKit macros</a> that help make this code more readable, self-documenting, and easy to change. </p>
+			<p>When a view is offset from another view, you might write something like this:</p>
+			<div class="codecolorer-container objc default" style="overflow:auto;white-space:nowrap;width:750px;"><div class="objc codecolorer">someView.frame <span class="sy0">=</span> CGRectMake<span class="br0">(</span>someOtherView.frame.origin.x <span class="sy0">+</span> someOtherView.frame.size.width <span class="sy0">+</span> padding...</div></div>
+			<p>These macros help make that code more concise and scannable:</p>
+			<div class="codecolorer-container objc default" style="overflow:auto;white-space:nowrap;width:584px;"><div class="objc codecolorer">someView.frame <span class="sy0">=</span> CGRectMake<span class="br0">(</span>RIGHT<span class="br0">(</span>someOtherView<span class="br0">)</span> <span class="sy0">+</span> padding...</div></div>
+			<p>You can download the macros from our <a onclick="javascript:pageTracker._trackPageview('/outgoing/github.com/twobitlabs/TBMacros');" href="http://github.com/twobitlabs/TBMacros">TBMacros</a> Github repo. First let’s take a look at an example <a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#more-290" class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+			<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/?share=twitter&amp;nb=1" title="Click to share on Twitter" id="sharing-twitter-290"><span></span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/?share=facebook&amp;nb=1" title="Share on Facebook" id="sharing-facebook-290"><span></span></a></li><li class="share-digg"><a rel="nofollow" class="share-digg sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/?share=digg&amp;nb=1" title="Click to Digg this post"><span></span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/?share=reddit&amp;nb=1" title="Click to share on Reddit"><span></span></a></li><li class="share-email share-service-visible"><a rel="nofollow" class="share-email sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/?share=email&amp;nb=1" title="Click to email this to a friend"><span></span></a></li><li class="share-print"><a rel="nofollow" class="share-print sd-button share-icon no-text" href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#print" title="Click to print"><span></span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+
+					<footer class="entry-meta">
+									<span class="cat-links"><span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://twobitlabs.com/category/code/" title="View all posts in code" rel="category tag">code</a>, <a href="http://twobitlabs.com/category/ios/" title="View all posts in iOS" rel="category tag">iOS</a>, <a href="http://twobitlabs.com/category/ipad-2/" title="View all posts in iPad" rel="category tag">iPad</a>, <a href="http://twobitlabs.com/category/iphone/" title="View all posts in iPhone" rel="category tag">iPhone</a>, <a href="http://twobitlabs.com/category/mac-os-x/" title="View all posts in Mac OS X" rel="category tag">Mac OS X</a>, <a href="http://twobitlabs.com/category/mobile-applications/" title="View all posts in Mobile Applications" rel="category tag">Mobile Applications</a>, <a href="http://twobitlabs.com/category/software-development/" title="View all posts in Software Development" rel="category tag">Software Development</a></span>
+						<span class="sep"> | </span> <span class="tag-links"><span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://twobitlabs.com/tag/frame/" rel="tag">frame</a>, <a href="http://twobitlabs.com/tag/geometry/" rel="tag">geometry</a>, <a href="http://twobitlabs.com/tag/interface-builder/" rel="tag">interface-builder</a>, <a href="http://twobitlabs.com/tag/ipad/" rel="tag">ipad</a>, <a href="http://twobitlabs.com/tag/iphone-2/" rel="tag">iphone</a>, <a href="http://twobitlabs.com/tag/layout/" rel="tag">layout</a>, <a href="http://twobitlabs.com/tag/macros/" rel="tag">macros</a>, <a href="http://twobitlabs.com/tag/objective-c/" rel="tag">objective-c</a>, <a href="http://twobitlabs.com/tag/uikit/" rel="tag">uikit</a>, <a href="http://twobitlabs.com/tag/uiview/" rel="tag">uiview</a>, <a href="http://twobitlabs.com/tag/xcode/" rel="tag">xcode</a></span>			
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#respond" title="Comment on Frame geometry macros to improve your UIKit code"><span class="leave-reply">Leave a reply</span></a></span>
+
+								</footer><!-- #entry-meta -->
+				</article><!-- #post-## -->
+	
+	
+	 
+			</section>
+
+	 
+
+	</div><!-- #content -->
+</div><!-- #primary -->
+ 
+

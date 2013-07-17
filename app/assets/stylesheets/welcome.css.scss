@@ -1,0 +1,36 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Variable Definitions
+
+$page-width:    500px;
+$sidebar-width: 200px;
+$primary-color: #FDFDFD;
+
+// Global Attributes
+
+ 
+// Scoped Styles
+
+#contents {
+  width: $page-width;
+  #sidebar {
+    float: right;
+    width: $sidebar-width;
+  }
+  #main {
+    width: $page-width - $sidebar-width;
+    background: $primary-color;
+    h2 { color: blue; }
+  }
+}
+
+#footer {
+  height: 200px;
+}
+
+#primary {
+  background: $primary-color;
+}
