@@ -364,6 +364,7 @@ input[type=email] {
 /* Links */
 a {
 	color: #444;
+	text-decoration: none;
 }
 a:visited {
 	color: #444;

@@ -1,0 +1,52 @@
+<p id="notice"><%= notice %></p>
+
+	<div id="primary" class="showcase" >
+		<div id="content" role="main" >
+		<!-- here可以引用info.html.erb -->
+			<section class="recent-posts">
+				<h1 class="showcase-heading">Recent Posts</h1>
+
+
+				<article id="post-290" class="post-290 post type-post status-publish format-standard hentry category-code category-ios category-ipad-2 category-iphone category-mac-os-x category-mobile-applications category-software-development tag-frame tag-geometry tag-interface-builder tag-ipad tag-iphone-2 tag-layout tag-macros tag-objective-c tag-uikit tag-uiview tag-xcode">
+					<header class="entry-header">
+						<h1 class="entry-title">
+							<a href="#" rel="bookmark">
+								<%= @post.title %>
+							</a>
+						</h1>
+
+						<div class="entry-meta">
+							<span class="sep">Posted on </span><a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/" rel="bookmark"><time class="entry-date" datetime="2013-03-11T12:01:38+00:00" pubdate="">March 11, 2013</time></a> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://twobitlabs.com/author/cpickslay/" title="View all posts by Christopher Pickslay">Christopher Pickslay</a></span>			</div><!-- .entry-meta -->
+
+									<div class="comments-link">
+							<a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#respond" title="Comment on Frame geometry macros to improve your UIKit code"><span class="leave-reply">Reply</span></a>			</div>
+								</header><!-- .entry-header -->
+
+					 <div class="entry-content">
+						 <%= @post.content.html_safe() %>				
+					 </div><!-- .entry-content -->
+
+					<footer class="entry-meta">
+									<span class="cat-links"><span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://twobitlabs.com/category/code/" title="View all posts in code" rel="category tag">code</a>, <a href="http://twobitlabs.com/category/ios/" title="View all posts in iOS" rel="category tag">iOS</a>, <a href="http://twobitlabs.com/category/ipad-2/" title="View all posts in iPad" rel="category tag">iPad</a>, <a href="http://twobitlabs.com/category/iphone/" title="View all posts in iPhone" rel="category tag">iPhone</a>, <a href="http://twobitlabs.com/category/mac-os-x/" title="View all posts in Mac OS X" rel="category tag">Mac OS X</a>, <a href="http://twobitlabs.com/category/mobile-applications/" title="View all posts in Mobile Applications" rel="category tag">Mobile Applications</a>, <a href="http://twobitlabs.com/category/software-development/" title="View all posts in Software Development" rel="category tag">Software Development</a></span>
+						<span class="sep"> | </span> <span class="tag-links"><span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://twobitlabs.com/tag/frame/" rel="tag">frame</a>, <a href="http://twobitlabs.com/tag/geometry/" rel="tag">geometry</a>, <a href="http://twobitlabs.com/tag/interface-builder/" rel="tag">interface-builder</a>, <a href="http://twobitlabs.com/tag/ipad/" rel="tag">ipad</a>, <a href="http://twobitlabs.com/tag/iphone-2/" rel="tag">iphone</a>, <a href="http://twobitlabs.com/tag/layout/" rel="tag">layout</a>, <a href="http://twobitlabs.com/tag/macros/" rel="tag">macros</a>, <a href="http://twobitlabs.com/tag/objective-c/" rel="tag">objective-c</a>, <a href="http://twobitlabs.com/tag/uikit/" rel="tag">uikit</a>, <a href="http://twobitlabs.com/tag/uiview/" rel="tag">uiview</a>, <a href="http://twobitlabs.com/tag/xcode/" rel="tag">xcode</a></span>			
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://twobitlabs.com/2013/03/objective-c-uiviewuframe-macros-for-dynamic-uikit-layout/#respond" title="Comment on Frame geometry macros to improve your UIKit code"><span class="leave-reply">Leave a reply</span></a></span>
+
+								</footer><!-- #entry-meta -->
+				</article><!-- #post-## -->
+	
+	
+	 
+			</section>
+
+	 
+
+	</div><!-- #content -->
+</div><!-- #primary -->
+ 
+
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+
