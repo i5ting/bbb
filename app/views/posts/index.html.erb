@@ -8,6 +8,12 @@
 
   </tr>
 
+
+<div id="primary" class="showcase" >
+	<div id="content" role="main" >
+		<%= render  :partial =>'welcome/info' %>
+	</div>
+</div>
 <% @posts.each do |post| %>
   <tr>
     <td><%= post.title %></td>
